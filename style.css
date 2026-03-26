@@ -1,0 +1,371 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('bebas.ttf') format('truetype');
+}
+body{
+    background:#9B9B9B69;
+}
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Bebas Neue';
+    font-weight:800;
+}
+nav{
+    background: #525252;
+    height:10vh;
+    padding-left:1vh;
+    display:flex;
+}
+.efb img{
+    height:10vh;
+    width:10vh;
+}
+.efb{
+    background:#D32121;
+    max-height:15vh;
+    max-width:10vh;
+    padding-top:6vh;
+    animation:efb 1s ease;
+}
+.menu li{
+    display:flex;
+    gap:2vh;
+    height:100%;
+    justify-content:center;
+    align-items:center;
+    padding-left:3.5vh;
+}
+.menu a{
+    text-decoration:underline;
+    color:white;
+    animation:space 1s ease;
+    padding:2px;
+    border-radius:5px;
+    font-size:20px;
+}
+@keyframes space{
+    0%{
+        margin-left:-40vh;
+        opacity:1;
+    }
+    100%{
+        margin-left:0;
+        opacity:1;
+    }
+}
+.fp{
+    height:70vh;
+    background:url('emirates plan.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:none;
+    font-size:25px;
+}
+.text{
+    padding-top:18vh;
+    padding-left:2vh;
+    color:red;
+    animation:text ease 2s;
+}
+@keyframes text{
+    0%{
+        letter-spacing:0.2vh;
+    }
+    100%{
+        letter-spacing:0;
+    }
+}
+@keyframes efb{
+    0%{
+      display:flex;
+      position:relative;
+      top:-20vh;
+    }
+    100%{
+      display:flex;
+      position:relative;
+      top:0vh;
+    }
+}
+.text h3{
+    color:white;
+}
+.fp button{
+    height:7vh;
+    width:28vh;
+    margin-left:19vh;
+    border:none;
+    background:red;
+    color:white;
+    font-size:15px;
+    margin-top:2vh;
+    animation:button 3s ease;
+}
+@keyframes button{
+    0%{
+        background:none;
+        color:black;
+        border:2px solid white;
+    }
+    50%{
+        background:none;
+        color:black;
+        border:2px solid white;
+    }
+    100%{
+        
+    }
+}
+.card1 img{
+    height:3vh;
+}
+.card1{
+    font-size:10px;
+    background:white;
+    width:25%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:7vh;
+    padding:2vh;
+    gap:2vh;
+    transition:0.5s;
+    border-radius:1vh 1vh 0 0;
+}
+.card1:hover{
+    color:white;
+    background:red;
+    box-shadow:0px -1px 8px red;
+}
+.container{
+    display:flex;
+    gap:1vh;
+    padding-left:3px;
+    padding-right:3px;
+    position:relative;
+    top:18vh;
+}
+.scroll{
+    height:30vh;
+    padding:0.5vh;
+    display:flex;
+    overflow-y:scroll;
+    gap:1vh;
+    padding-left:5px;
+    margin-top:1vh;
+}
+.c1{
+    background:url('dubai.jpg');
+    background-repeat:none;
+    background-size:cover;
+    background-position:center;
+    height:30vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:2vh;
+    color:white;
+    border-radius:2vh;
+    flex-shrink:0;
+    font-size:20px;
+}
+.c2{
+    background:url('new york.jpg');
+    background-repeat:none;
+    background-size:cover;
+    background-position:center;
+    height:30vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:2vh;
+    color:white;
+    border-radius:2vh;
+    flex-shrink:0;
+    font-size:20px;
+}
+.c3{
+    background:url('paris.jpg');
+    background-repeat:none;
+    background-size:cover;
+    background-position:center;
+    height:30vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:2vh;
+    color:white;
+    border-radius:2vh;
+    flex-shrink:0;
+    font-size:20px;
+}
+.c1 a{
+    color:white;
+}
+.c2 a{
+    color:white;
+}
+.c3 a{
+    color:white;
+}
+.skywards{
+    background:url('inside the plan.jpg');
+    background-repeat:none;
+    background-position:center;
+    background-size:cover;
+    color:white;
+    height:50vh;
+    margin:1vh;
+    border-radius:0 0 3vh 3vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap:2vh;
+}
+.skywards img{
+    height:8vh;
+}
+.skywards p{
+    text-align: center;
+    font-size:20px;
+}
+.skywards button{
+    width:15vh;
+    height:5vh;
+    border:2px solid white;
+    background:none;
+    color:white;
+}
+.services{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.services h1{
+    padding-bottom:12px;
+}
+.ca1 img{
+    height:5vh;
+}
+.ca1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background:white;
+    height:13vh;
+    width:30vh;
+    border-radius:1vh;
+    gap:1vh;
+}
+.ca1 a{
+    text-decoration:underline;
+    color:black;
+}
+.frow{
+    height:13vh;
+    display:flex;
+    gap:5vh;
+    padding:1vh;
+}
+.fwe{
+    background:url('fwe.jpg');
+    height:50vh;
+    margin:1vh;
+    border:2px white solid;
+    background-position:center;
+    background-size:cover;
+    border-radius:2vh;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:2vh;
+}
+.fwe:before{
+    content:'';
+    background:url('fwe.jpg');
+    backdrop-filter: blur(10px);
+    z-index:-1;
+}
+.fwe h5{
+    font-weight:100;
+    color:white;
+}
+.fwe h3{
+    font-size:20px;
+}
+.fwe p{
+    width:90%;
+    color:white;
+}
+.fwe a{
+    background:#FF0C0C8A;
+    height:5vh;
+    width:15vh;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    border-radius:2vh;
+    border:2px solid white;
+}
+footer{
+    height:min-content;
+    background:black;
+    color:white;
+    padding-left:1vh;
+}
+footer ul{
+    list-style:none;
+    margin-top:15px;
+    gap:3px;
+}
+footer a{
+    color:white;
+}
+.imgp img{
+    height:13vh;
+}
+.imgp{
+    padding:1vh 0 0 0;
+    display:flex;
+    align-items:center;
+    gap:5vh;
+    font-size:30px;
+}
+.imgp h1{
+    animation:anim 4s infinite;
+}
+@keyframes anim{
+    0%{
+        color:white;
+    }
+    70%{
+        color:red;
+    }
+    100%{
+        color:white;
+    }
+}
+.sm img{
+    height:6vh;
+}
+.sm{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:3vh;
+    margin:6px;
+}
